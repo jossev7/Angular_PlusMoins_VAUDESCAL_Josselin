@@ -1,0 +1,19 @@
+{
+  "name": "intro-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yvarni/intro-angular.git"
+  },
+  "author": "Yannis Varni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yvarni/intro-angular/issues"
+  },
+  "homepage": "https://github.com/yvarni/intro-angular",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}

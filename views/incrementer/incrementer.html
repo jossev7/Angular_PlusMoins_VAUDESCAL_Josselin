@@ -1,0 +1,22 @@
+<h1>Incrémenter </h1>
+<hr>
+
+<p>
+<button type="button" class="btn btn-default" ng-click="incrPlus()">+</button>
+</p>
+<p>
+    <input type="text" ng-model="nombre" readonly>
+</p>
+<p>
+    <button type="button" class="btn btn-default" ng-click="incrMoins()">-</button>
+
+<hr size="50" color="blue">
+
+    <ul ng-repeat = "value in history | orderBy: '-timestamp'">
+    <li><span class="label" ng-class="{'label-success': value.value > 0, 'label-danger': value.value <= 0}">
+        {{value.timestamp | date: 'medium'}} :
+        {{value.value}}
+        </span>
+    </li>
+    </ul>
+

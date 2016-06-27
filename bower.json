@@ -1,0 +1,16 @@
+{
+  "name": "intro-angular",
+  "version": "1.0.0",
+  "homepage": "https://github.com/yvarni/intro-angular",
+  "authors": [
+    "Yannis Varni <yannis.varni@laerce.fr>"
+  ],
+  "description": "Introduction à Angular dans l'optique de présenter Ionic",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "angular": "~1.3.6",
+    "angular-ui-router": "~0.3.1"
+  }
+}

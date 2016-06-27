@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="intro-angular">
+<head>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="js/app.js"></script>
+    <script src="views/home/home.js"></script>
+    <script src="views/incrementer/incrementer.js"></script>
+    <script src="views/param/param.js"></script>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+<div class="container">
+    <h1>Incrementer <small>Une application qui a tout pour plaire...</small></h1>
+    <ul class="nav nav-tabs">
+        <li role="presentation" ui-sref-active="active"><a ui-sref="home">Accueil</a></li>
+        <li role="presentation" ui-sref-active="active"><a ui-sref="incrementer">Incrémenter</a></li>
+        <li role="presentation" ui-sref-active="active"><a ui-sref="param">Paramètres</a></li>
+    </ul>
+    <div ui-view></div>
+</div>
+</body>
+</html>
+
